@@ -373,9 +373,6 @@ a:active {
   #clients .card img{
   max-width: 350px;
   }
-  .show-case.section{
-    padding-bottom: 0px;
-  }
 }
 
 .hero-area .btn {
@@ -651,6 +648,9 @@ footer p a:hover {
 }
 .show-case .card-img-top{
   width:100%;
+}
+.show-case.section{
+    padding-bottom: 0px;
 }
 .show-case .card-deck{
   max-width:750px;
