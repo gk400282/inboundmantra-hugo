@@ -116,6 +116,7 @@ a:active {
 
 .btn {
   border-radius: 0;
+  font-weight: 200;
 }
 
 .btn-home {
@@ -527,9 +528,9 @@ a:active {
 }
 
 .call-to-action .block h2 {
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 6px;
-  font-weight: 600;
+  font-weight: 400;
   color: #fff;
 }
 
