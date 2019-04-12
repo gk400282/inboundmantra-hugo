@@ -500,7 +500,7 @@ a:active {
     call-to-action start
 --*/
 .call-to-action {
-  padding: 60px 0px;
+  padding: 40px 0px;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -515,6 +515,15 @@ a:active {
   right: 0;
   bottom: 0;
   background: rgb(240, 89, 38);
+}
+.call-to-action.call-three::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
 }
 
 .call-to-action .block h2 {
@@ -643,6 +652,9 @@ footer p a:hover {
 .center{
   align-items: center;
 }
+.end{
+  align-items: flex-end;
+}
 .justify-center{
   justify-content: center;
 }
@@ -667,17 +679,38 @@ footer p a:hover {
 .show-case .card-deck .card .card-body p:first-child {
   margin-bottom: 0.75rem;
 }
-#clients .card img{
+.clients .card img{
   max-width: 200px;
   filter: grayscale(1);
 }
-#clients .card img:hover{
+.clients .card img:hover{
   filter: grayscale(0);
 }
-#clients .card{
+.clients .card{
   margin-bottom: 0px;
   border: 0.5px solid rgba(0,0,0,0.125);
 }
 .card{
   border-radius: 0px;
+}
+.resources .card-img {
+  max-width: 500px;
+  width: 100%;
+}
+.resources .card.bg-dark.text-white {
+  margin: 1rem;
+}
+.card-img-top, .card-img{
+  border-radius: 0;
+}
+.resources .card-img-overlay{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.resources .btn-home {
+    margin: 0;
+}
+@media only screen and (max-width:1200px) {
+  .resources .card-img{
+    max-width: 600px;
+  }
 }
