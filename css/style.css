@@ -6,7 +6,7 @@ body {
   font-weight: 300;
   line-height: 25px;
   color: #3b4045;
-  font: 14px/22px 'Source Sans Pro', sans-serif, Helvetica, Arial, sans-serif;
+  font: 14px/22px "Source Sans Pro", sans-serif, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -78,11 +78,11 @@ a:active {
 .section {
   padding: 100px 0;
 }
-.section.service{
+.section.service {
   padding: 100px 0px 50px 0px;
 }
 .service.section .container .row div {
-    max-height: 210px;
+  max-height: 210px;
 }
 
 /*--
@@ -108,7 +108,7 @@ a:active {
 }
 
 .heading p {
-  font-family: 'Droid Serif', serif;
+  font-family: "Droid Serif", serif;
   font-size: 15px;
   line-height: 24px;
   font-weight: 300;
@@ -129,8 +129,8 @@ a:active {
   border: 2px solid white;
 }
 .btn.btn-home.btn-sm {
-    padding: .25rem .5rem;
-    font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
 }
 
 .btn-home:hover,
@@ -302,9 +302,9 @@ a:active {
   justify-content: center;
   align-items: center;
 }
-.hero-area .container .row .block{
+.hero-area .container .row .block {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
 }
 .hero-area h1 {
@@ -313,7 +313,7 @@ a:active {
   text-transform: uppercase;
   font-weight: bold;
   padding-bottom: 19px;
-  text-align:center;
+  text-align: center;
 }
 
 .hero-area p {
@@ -354,25 +354,25 @@ a:active {
   height: 60px;
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width: 400px) {
   .hero-area .counter ul li .digit {
     font-size: 30px;
     line-height: 30px;
     height: 40px;
   }
-  #clients .card img{
-  max-width: 300px;
+  #clients .card img {
+    max-width: 300px;
   }
 }
-@media only screen and (max-width:500px) {
-  .hero-area h1{
+@media only screen and (max-width: 500px) {
+  .hero-area h1 {
     font-size: 24px;
   }
-  .hero-area p{
+  .hero-area p {
     font-size: 15px;
   }
-  #clients .card img{
-  max-width: 350px;
+  #clients .card img {
+    max-width: 350px;
   }
 }
 
@@ -427,16 +427,18 @@ a:active {
 .navigation.animated .menu a {
   color: #666;
 }
-.navbar-brand img{
+.navbar-brand img {
   height: 79.9833px;
 }
-.nav .nav-item{
+.nav .nav-item {
   padding: 1.4rem;
 }
-.nav .nav-item:hover, .nav .nav-item:focus{
+.nav .nav-item:hover,
+.nav .nav-item:focus {
   background-color: black;
 }
-.nav .nav-item:hover a, .nav .nav-item:focus a{
+.nav .nav-item:hover a,
+.nav .nav-item:focus a {
   color: white;
 }
 .menu li a {
@@ -489,7 +491,7 @@ a:active {
   line-height: 36px;
   color: #7e7e7e;
   margin-bottom: 20px;
-  font-family: 'Droid Serif', serif;
+  font-family: "Droid Serif", serif;
 }
 
 .about .about-slider img {
@@ -518,13 +520,13 @@ a:active {
   background: rgb(240, 89, 38);
 }
 .call-to-action.call-three::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: black;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: black;
 }
 
 .call-to-action .block h2 {
@@ -561,7 +563,7 @@ a:active {
   font-weight: bold;
 }
 .call-to-action .btn.btn-home {
-    margin: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
 .input-field .form-control {
   box-shadow: none;
@@ -596,7 +598,7 @@ a:active {
   color: rgba(237, 28, 36, 0.7);
 }
 
-.form-group .input-field+.input-field {
+.form-group .input-field + .input-field {
   margin-top: 10px;
 }
 
@@ -635,63 +637,69 @@ footer p a:hover {
   color: #fff;
   text-decoration: none;
 }
-.menu li a{
+.menu li a {
   color: black;
 }
-.flex{
+.flex {
   display: flex;
 }
-.flex-row{
+.flex-row {
   flex-direction: row;
 }
-.flex-column{
+.flex-column {
   flex-direction: column;
 }
-.flex-wrap{
+.flex-wrap {
   flex-wrap: wrap;
 }
-.center{
+.flex-no-wrap{
+  flex-wrap: nowrap;
+}
+.center {
   align-items: center;
 }
-.end{
+.end {
   align-items: flex-end;
 }
-.justify-center{
+.start{
+  align-items: flex-start;
+}
+.justify-center {
   justify-content: center;
 }
-.show-case .card-img-top{
-  width:100%;
+.show-case .card-img-top {
+  width: 100%;
 }
-.show-case.section{
-    padding-bottom: 0px;
+.show-case.section {
+  padding-bottom: 0px;
 }
-.show-case .card-deck{
-  max-width:750px;
+.show-case .card-deck {
+  max-width: 750px;
 }
-.show-case .card-deck .card .card-body{
+.show-case .card-deck .card .card-body {
   padding: 1rem;
 }
-.show-case .card-deck .card .card-body h3{
+.show-case .card-deck .card .card-body h3 {
   font-weight: bold;
 }
-.show-case .card-deck .card .card-body .card-title{
+.show-case .card-deck .card .card-body .card-title {
   margin-bottom: 0.1rem;
 }
 .show-case .card-deck .card .card-body p:first-child {
   margin-bottom: 0.75rem;
 }
-.clients .card img{
+.clients .card img {
   max-width: 200px;
   filter: grayscale(1);
 }
-.clients .card img:hover{
+.clients .card img:hover {
   filter: grayscale(0);
 }
-.clients .card{
+.clients .card {
   margin-bottom: 0px;
-  border: 0.5px solid rgba(0,0,0,0.125);
+  border: 0.5px solid rgba(0, 0, 0, 0.125);
 }
-.card{
+.card {
   border-radius: 0px;
 }
 .resources .card-img {
@@ -701,17 +709,58 @@ footer p a:hover {
 .resources .card.bg-dark.text-white {
   margin: 1rem;
 }
-.card-img-top, .card-img{
+.card-img-top,
+.card-img {
   border-radius: 0;
 }
-.resources .card-img-overlay{
+.resources .card-img-overlay {
   background-color: rgba(0, 0, 0, 0.6);
 }
 .resources .btn-home {
-    margin: 0;
+  margin: 0;
 }
-@media only screen and (max-width:1200px) {
-  .resources .card-img{
+@media only screen and (max-width: 1200px) {
+  .resources .card-img {
     max-width: 600px;
   }
+}
+.partner{
+  text-align: center;
+}
+.service .block{
+  margin-bottom: 50px;
+}
+.partner .heading p {
+    margin-top: 30px;
+}
+.partner .partnerItem{
+  font-size: 2rem;
+}
+.partner .partnerItem .block h2{
+  font-size: 42px;
+}
+.partner .partnerItem .block svg{
+  margin-right: 0.4em;
+}
+.partner .partnerItem .block p{
+  margin-top: 1.5rem;
+  color: #878787;
+}
+.partner .partnerItem .block .blockHeader::after{
+  content:"";
+  width: 30px;
+  border-bottom: 1px solid black;
+  position: absolute;
+  top: 50px;
+}
+.partner .btn-home{
+  color: black;
+  border: 2px solid black;
+  margin-top: 50px;
+}
+.partner .btn-home:hover,
+.partner .btn-home:focus {
+  background-color: #000;
+  color: white;
+  border: 2px solid #white;
 }
