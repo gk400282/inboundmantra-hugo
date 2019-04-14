@@ -701,6 +701,7 @@ footer p a:hover {
 }
 .card {
   border-radius: 0px;
+  background-color: transparent;
 }
 .resources .card-img {
   max-width: 500px;
@@ -764,6 +765,35 @@ footer p a:hover {
   color: white;
   border: 2px solid #white;
 }
+.blogs .card-img-top {
+  width: 100%;
+}
+.blogs.section {
+  padding-bottom: 70px;
+}
+.blogs .card .card-body {
+  padding: 1rem;
+}
+.blogs .card .card-body h3 {
+  font-weight: bold;
+}
+.blogs .card .card-body .card-title {
+  margin-bottom: 0.1rem;
+}
+.blogs .card .card-body p:first-child {
+  margin-bottom: 0.75rem;
+}
+.blogs .btn-home{
+  background-color: black;
+  margin: 20px 0;
+  border: 2px solid black;
+}
+.blogs .btn-home:hover,
+.blogs .btn-home:focus {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
 @media only screen and (max-width: 766px) {
   .partner .partnerItem{
     margin-top: 2rem;
@@ -777,5 +807,23 @@ footer p a:hover {
   }
   .partner .heading{
     padding-bottom: 20px;
+  }
+  .show-case .card-deck .card{
+    border: 0;
+  }
+  .blogs .card{
+    border: 0;
+  }
+  .blogs .btn-home{
+    margin-top: 15px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .blogs .card{
+    flex: 1;
+    margin: 0 1rem;
+  }
+  .blogs .card .card-body h3{
+    height: 85px;
   }
 }
